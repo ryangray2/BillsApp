@@ -1622,7 +1622,7 @@ function draftPressed() {
 // }
 
 function draftsOver() {
-  document.body.setAttribute("style", "background-color: #125740");
+  document.body.setAttribute("style", "background-color: #01338d");
   document.getElementById("draftCont").style.display = "none";
   document.getElementById("summary").style.display = "block";
   generateSummary();

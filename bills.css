@@ -1,5 +1,5 @@
 body {
-      background-color: #01338d;
+      background-color: #01338d !important;
   color: white;
   -webkit-touch-callout: none; /* iOS Safari */
    -webkit-user-select: none; /* Safari */
@@ -52,7 +52,7 @@ p {
 }
 
 h5 {
- font-family: inherit;
+  font-family: "Abel";
 }
 
 .transition {
@@ -303,13 +303,14 @@ color: white;
 
 #share {
   background-color: #cfebfd;
-      border-radius: 49px;
-      border: 3px solid #29b68c;
-      padding: 20px;
-      margin-top: 15px;
-      max-width: 100%;
-      margin-left: auto;
-      margin-right: auto;
+  border-radius: 49px;
+  border: 3px solid #d60029;
+  padding: 20px;
+  margin-top: 15px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 #ryangray {
@@ -324,14 +325,15 @@ color: white;
   font-size: 3vh;
       font-family: "Coda Caption";
       margin-top: 10px;
-      color: #145841;
+      margin-bottom: 0px;
+      color: #01338d;
 }
 
 #screenshot2 {
   font-size: 2vh;
       font-family: "Coda Caption";
       margin-top: 10px;
-      color: #145841;
+      color: #01338d;
 }
 
 #sCap {
