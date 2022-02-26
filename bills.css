@@ -1,5 +1,5 @@
 body {
-  background: #00338e;
+      background-color: #01338d;
   color: white;
   -webkit-touch-callout: none; /* iOS Safari */
    -webkit-user-select: none; /* Safari */
@@ -140,13 +140,13 @@ h5 {
 
 #fixHead {
   color: white;
-   font-family: inherit;
+font-family: "Big Shoulders Inline Display";
   font-size: 9vw;
 }
 
 #summaryHead {
   color: #cfecfe;
-  font-family: inherit;
+font-family: "Big Shoulders Inline Display";
   font-size: 6vh;
 }
 
@@ -158,7 +158,7 @@ h5 {
 
 #faHead {
   color: white;
-  font-family: inherit;
+  font-family: "Big Shoulders Inline Display";
   font-size: 8vh;
 }
 
@@ -270,7 +270,7 @@ color: white;
   position: absolute;
   height: 100%;
   width: 100%;
-    background-color: #c60c31;
+  background-color: #00338e;
     /* background-image: url("jetXlogofade.png"); */
     background-size: contain;
     background-repeat: no-repeat;

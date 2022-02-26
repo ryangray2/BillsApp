@@ -2011,6 +2011,7 @@ function generateTradeOptions() {
 }
 
 function showDraft() {
+  console.log("leftoffshow: " + leftOffShow);
   // console.log(draftSummary);
   console.log(leftOffShow);
   console.log(showAmount);
@@ -2031,6 +2032,82 @@ function showDraft() {
    }) (i++, j++)
   }
   leftOffShow = showAmount - 1;
+}
+
+function skipDraftPressed() {
+  document.getElementById("showDraft").style.display = "none";
+}
+
+function simDraftPressed() {
+  draftPlayerSim(draftPlayers[0]);
+}
+
+function draftPlayerSim(guy) {
+  // var teamPicking = draftOrder[i][k];
+  // var playerTaken = draftPlayers[0]; /// edit to make more random
+  taken.push(guy);
+  const index = draftPlayers.indexOf(guy);
+  if (index > -1) {
+    draftPlayers.splice(index, 1);
+  }
+  // console.log(" Jets: " + guy.name);
+  activeRoster.push(guy);
+  guy.pickNum = draftSummary.length + 1;
+  billsDrafted.push(guy);
+  draftSummary.push([buf, guy]);
+    window.scrollTo(0, 0);
+  simDraft(leftOff);
+    window.scrollTo(0, 0);
+}
+
+
+function simDraft(n) {
+
+
+  for (var i = n[0]; i < draftOrder.length + 1; i++) {
+    console.log("I guess...");
+    console.log(stop);
+    var round  = i + 1;
+
+    for (var k = n[1]; k < draftOrder[i].length; k++) {
+      console.log("We're in the for loop!");
+      showAmount++;
+      document.getElementById("roundpicktext").innerHTML = "Round " + (i + 1) + " Pick " + (k + 1);
+      if (i === 6 && k === draftOrder[i].length - 1) {
+        draftOver = true;
+        console.log("We hit the first if!");
+      }
+      if (k === 0) {
+        // console.log("Round " + round);
+        console.log("We hit the second if!");
+      }
+
+        console.log("We hit the third if!");
+        var teamPicking = draftOrder[i][k];
+        var playerTaken = getPick(teamPicking); /// edit to make more random
+        draftSummary.push([teamPicking, playerTaken]);
+        taken.push(playerTaken);
+        if (draftOrder[i][k] === buf) {
+          activeRoster.push(playerTaken);
+          playerTaken.pickNum = draftSummary.length + 1;
+          billsDrafted.push(playerTaken);
+          draftSummary.push([buf, playerTaken]);
+        }
+        const index = draftPlayers.indexOf(playerTaken);
+        if (index > -1) {
+          draftPlayers.splice(index, 1);
+        }
+        // console.log((k + 1) + " " + teamPicking.name + ": " + playerTaken.name)
+
+    }
+    if (draftOver === true) {
+      draftsOver();
+      break;
+    }
+    if (stop == false) {
+          leftOff[1] = 0;
+    }
+  }
 }
 
 function startDraft(n) {

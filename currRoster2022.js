@@ -449,7 +449,7 @@ pos: 'EDGE',
 age: '33.2',
 type: 'UFA',
 cYears: 1,
-cTotal: 10.7,
+cTotal: 6,
 interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/13245.png&w=350&h=254',
 salary: 0
@@ -481,8 +481,8 @@ name: 'Emmanuel Sanders',
 pos: 'WR',
 age: '34.7',
 type: 'UFA',
-cYears: 2,
-cTotal: 12,
+cYears: 1,
+cTotal: 3,
 interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/13295.png&w=350&h=254',
 salary: 0
@@ -493,7 +493,7 @@ pos: 'QB',
 age: '27.2',
 type: 'UFA',
 cYears: 1,
-cTotal: 2,
+cTotal: 5,
 interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3039707.png&w=350&h=254',
 salary: 0
@@ -504,7 +504,7 @@ pos: 'IOL',
 age: '27.1',
 type: 'UFA',
 cYears: 2,
-cTotal: 5,
+cTotal: 7,
 interest: 40,
 img: '',
 salary: 0
@@ -515,7 +515,7 @@ pos: 'CB',
 age: '26.4',
 type: 'UFA',
 cYears: 3,
-cTotal: 24,
+cTotal: 28,
 interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3133440.png&w=350&h=254',
 salary: 0
@@ -526,9 +526,31 @@ pos: 'RB',
 age: '33.2',
 type: 'UFA',
 cYears: 1,
-cTotal: 1.75,
+cTotal: 1.8,
 interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/14167.png&w=350&h=254',
+salary: 0
+};
+var SiranNeal = {
+name: 'Siran Neal',
+pos: 'S',
+age: '27.6',
+type: 'UFA',
+cYears: 2,
+cTotal: 3,
+interest: 40,
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3057524.png&w=350&h=254',
+salary: 0
+};
+var JakeKumerow = {
+name: 'Jake Kumerow',
+pos: 'WR',
+age: '30',
+type: 'UFA',
+cYears: 2,
+cTotal: 3,
+interest: 40,
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3085107.png&w=350&h=254',
 salary: 0
 };
 var EfeObada = {
@@ -553,13 +575,24 @@ interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254',
 salary: 0
 };
+var BobbyHart = {
+name: 'Bobby Hart',
+pos: 'OT',
+age: '27.4',
+type: 'UFA',
+cYears: 1,
+cTotal: .9,
+interest: 40,
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254',
+salary: 0
+};
 var MattBreida = {
 name: 'Matt Breida',
 pos: 'RB',
 age: '26.7',
 type: 'UFA',
-cYears: 2,
-cTotal: 3,
+cYears: 1,
+cTotal: 1.5,
 interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3049916.png&w=350&h=254',
 salary: 0
@@ -569,14 +602,14 @@ name: 'Harrison Phillips',
 pos: 'IDL',
 age: '25.8',
 type: 'UFA',
-cYears: 1,
-cTotal: .9,
+cYears: 2,
+cTotal: 10.8,
 interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3117255.png&w=350&h=254',
 salary: 0
 };
 
-var currRosterArr = [ StefonDiggs, TreDaviousWhite, JoshAllen, TremaineEdmunds, DionDawkins, MitchMorse, JordanPoyer, MicahHyde, MattMilano, DarylWilliams, StarLotulelei, ColeBeasley, EdOliver, AJKlein, JonFeliciano, TaronJohnson, TylerMatakevich, DevinSingletary, DawsonKnox, GregRousseau, CodyFord, MarioAddison, MattHaack, AJEpenesa, EmmanuelSanders, CarlosBashamJr, AndreSmith, ZackMoss, SpencerBrown, GabrielDavis, ReidFerguson, JaquanJohnson, TommySweeney, TylerBass, CamLewis, TommyDoyle, ReggieGilliam, TimHarris, DaneJackson, MarquezStevenson, DamarHamlin, TannerGentry, JoeGilesHarris, MikeLove, JoshThomas, JacobCapra, OlaijahGriffin, IsaiahHodgins, NickMcCloud, QuintinMorris, ChristianWade, JerryHughes, VernonButler, MitchellTrubisky, LeviWallace, TaiwanJones, EfeObada, IsaiahMcKenzie, MattBreida, HarrisonPhillips]
+var currRosterArr = [ StefonDiggs, TreDaviousWhite, JoshAllen, TremaineEdmunds, DionDawkins, MitchMorse, JordanPoyer, MicahHyde, MattMilano, DarylWilliams, StarLotulelei, ColeBeasley, EdOliver, AJKlein, JonFeliciano, TaronJohnson, TylerMatakevich, DevinSingletary, DawsonKnox, GregRousseau, CodyFord, MarioAddison, MattHaack, AJEpenesa, EmmanuelSanders, CarlosBashamJr, AndreSmith, ZackMoss, SpencerBrown, GabrielDavis, ReidFerguson, JaquanJohnson, TommySweeney, TylerBass, CamLewis, TommyDoyle, ReggieGilliam, TimHarris, DaneJackson, MarquezStevenson, DamarHamlin, TannerGentry, JoeGilesHarris, MikeLove, JoshThomas, JacobCapra, OlaijahGriffin, IsaiahHodgins, NickMcCloud, QuintinMorris, ChristianWade, JerryHughes, VernonButler, MitchellTrubisky, LeviWallace, TaiwanJones, EfeObada, IsaiahMcKenzie, MattBreida, HarrisonPhillips, SiranNeal, JakeKumerow, BobbyHart]
 
 
 var deadCap = 1026356;
