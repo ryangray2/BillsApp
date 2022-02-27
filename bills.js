@@ -1518,6 +1518,18 @@ function generateDraftPool(kind) {
     var nameP = document.createElement("p");
     nameP.classList.add("draftName", "myauto");
     nameP.innerHTML = tempArray[i].name;
+    if (tempArray[i].article) {
+      var icon = document.createElement("i");
+      icon.classList.add("fa", "fa-sticky-note");
+      icon.setAttribute("aria-hidden", "true");
+      icon.style.color = "white";
+      icon.addEventListener('click', function() {
+        window.open(tempArray[i].article, '_blank');
+      });
+      nameP.innerHTML += " ";
+      nameP.appendChild(icon);
+    }
+
     nameCol.appendChild(nameP);
     row.appendChild(nameCol);
 
@@ -2290,6 +2302,7 @@ function draftPlayer(guy) {
 }
 
 function generateBroadFA(kind) {
+
   currKind = kind;
   var tempArray = [];
   var amount = broadFA.length;
@@ -2508,7 +2521,7 @@ function generateBroadFA(kind) {
         signButton.innerHTML = "NOT ENOUGH SPACE";
       } else {
         var signButton = document.createElement("button");
-        signButton.classList.add("signButton", "bttn-slant", "bttn-md", "bttn-success", "butt");
+        // signButton.classList.add("signButton", "bttn-slant", "bttn-md", "bttn-success", "butt");
         signButton.innerHTML = "SIGN";
         signButton.addEventListener('click', function() {
           signBroadFA(tempArray[i]);
@@ -2530,6 +2543,7 @@ function generateBroadFA(kind) {
     root.appendChild(row);
     root.appendChild(hr);
   }
+  root.scrollTop = 0;
 }
 
 function divideRoster() {

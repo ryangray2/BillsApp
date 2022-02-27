@@ -536,11 +536,12 @@ name: 'Siran Neal',
 pos: 'S',
 age: '27.6',
 type: 'UFA',
-cYears: 2,
-cTotal: 3,
+cYears: 0,
+cTotal: 0,
 interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3057524.png&w=350&h=254',
-salary: 0
+salary: 3600000,
+capPenalty: 0
 };
 var JakeKumerow = {
 name: 'Jake Kumerow',
@@ -583,7 +584,7 @@ type: 'UFA',
 cYears: 1,
 cTotal: .9,
 interest: 40,
-img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254',
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2576789.png&w=350&h=254',
 salary: 0
 };
 var MattBreida = {
