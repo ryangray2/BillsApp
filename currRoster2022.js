@@ -442,6 +442,8 @@ weight: '',
 salary: 705000,
 img: ''
 };
+
+
 ///////////////////////////////////////
 var JerryHughes = {
 name: 'Jerry Hughes',
@@ -610,10 +612,58 @@ img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3117255
 salary: 0
 };
 
-var currRosterArr = [ StefonDiggs, TreDaviousWhite, JoshAllen, TremaineEdmunds, DionDawkins, MitchMorse, JordanPoyer, MicahHyde, MattMilano, DarylWilliams, StarLotulelei, ColeBeasley, EdOliver, AJKlein, JonFeliciano, TaronJohnson, TylerMatakevich, DevinSingletary, DawsonKnox, GregRousseau, CodyFord, MarioAddison, MattHaack, AJEpenesa, EmmanuelSanders, CarlosBashamJr, AndreSmith, ZackMoss, SpencerBrown, GabrielDavis, ReidFerguson, JaquanJohnson, TommySweeney, TylerBass, CamLewis, TommyDoyle, ReggieGilliam, TimHarris, DaneJackson, MarquezStevenson, DamarHamlin, TannerGentry, JoeGilesHarris, MikeLove, JoshThomas, JacobCapra, OlaijahGriffin, IsaiahHodgins, NickMcCloud, QuintinMorris, ChristianWade, JerryHughes, VernonButler, MitchellTrubisky, LeviWallace, TaiwanJones, EfeObada, IsaiahMcKenzie, MattBreida, HarrisonPhillips, SiranNeal, JakeKumerow, BobbyHart]
+var TyrelDodson = {
+name: 'Tyrel Dodson',
+pos: 'LB',
+age: '25.8',
+salary: 895000,
+capPenalty: 0
+};
+
+var EliAnkou = {
+name: 'Eli Ankou',
+pos: 'DT',
+age: '25.8',
+salary: 1035000,
+capPenalty: 0
+};
+
+var EliAnkou = {
+name: 'Eli Ankou',
+pos: 'DT',
+age: '25.8',
+salary: 1035000,
+capPenalty: 0
+};
+
+var JustinZimmer = {
+name: 'Justin Zimmer',
+pos: 'DT',
+age: '25.8',
+salary: 920000,
+capPenalty: 0
+};
+
+var RyanBates = {
+name: 'Ryan Bates',
+pos: 'G',
+age: '25.8',
+salary: 850000,
+capPenalty: 0
+};
+
+var BrandinBryant = {
+name: 'BrandinBryant',
+pos: 'DE',
+age: '25.8',
+salary: 837500,
+capPenalty: 0
+};
+
+var currRosterArr = [ TyrelDodson, EliAnkou, JustinZimmer, RyanBates, BrandinBryant, StefonDiggs, TreDaviousWhite, JoshAllen, TremaineEdmunds, DionDawkins, MitchMorse, JordanPoyer, MicahHyde, MattMilano, DarylWilliams, StarLotulelei, ColeBeasley, EdOliver, AJKlein, JonFeliciano, TaronJohnson, TylerMatakevich, DevinSingletary, DawsonKnox, GregRousseau, CodyFord, MarioAddison, MattHaack, AJEpenesa, EmmanuelSanders, IkeBoettger, CarlosBashamJr, AndreSmith, ZackMoss, SpencerBrown, GabrielDavis, ReidFerguson, JaquanJohnson, TommySweeney, TylerBass, CamLewis, TommyDoyle, ReggieGilliam, TimHarris, DaneJackson, MarquezStevenson, DamarHamlin, TannerGentry, JoeGilesHarris, MikeLove, JoshThomas, JacobCapra, OlaijahGriffin, IsaiahHodgins, NickMcCloud, QuintinMorris, ChristianWade, JerryHughes, VernonButler, MitchellTrubisky, LeviWallace, TaiwanJones, EfeObada, IsaiahMcKenzie, MattBreida, HarrisonPhillips, SiranNeal, JakeKumerow, BobbyHart]
 
 
-var deadCap = 1026356;
+var deadCap = 2816070;
 var rollover = 6687683;
 // var salaryCap = 211686546;
 var salaryCap = 210545554;

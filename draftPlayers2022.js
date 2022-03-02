@@ -275,8 +275,7 @@ school: 'Alabama',
 exp: 'JR',
 height: '6-0',
 weight: '195',
-rank: 31,
-article: "https://twitter.com/home"
+rank: 31
 };
 var JahanDotson = {
 name: 'Jahan Dotson',

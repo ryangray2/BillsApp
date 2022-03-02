@@ -20,6 +20,11 @@ box-shadow: none;
 margin-bottom: 5px;
 }
 
+.icons {
+  font-size: 7vh;
+    color: red;
+}
+
 /* From cssbuttons.io by @adamgiebl */
 button {
  background: #c60c31;
