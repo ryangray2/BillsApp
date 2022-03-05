@@ -3,8 +3,8 @@ name: 'Von Miller',
 pos: 'EDGE',
 age: '32.6',
 type: 'UFA',
-cYears: 2,
-cTotal: 10,
+cYears: 1,
+cTotal: 10.6,
 interest: 100,
 img: ''
 };

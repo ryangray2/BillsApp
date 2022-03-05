@@ -508,7 +508,7 @@ type: 'UFA',
 cYears: 2,
 cTotal: 7,
 interest: 40,
-img: '',
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040166.png&w=350&h=254',
 salary: 0
 };
 var LeviWallace = {
