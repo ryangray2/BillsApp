@@ -550,11 +550,12 @@ name: 'Jake Kumerow',
 pos: 'WR',
 age: '30',
 type: 'UFA',
-cYears: 2,
-cTotal: 3,
+cYears: 0,
+cTotal: 0,
 interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3085107.png&w=350&h=254',
-salary: 0
+salary: 895000,
+capPenalty: 0
 };
 var EfeObada = {
 name: 'Efe Obada',
@@ -660,10 +661,11 @@ salary: 837500,
 capPenalty: 0
 };
 
-var currRosterArr = [ TyrelDodson, EliAnkou, JustinZimmer, RyanBates, BrandinBryant, StefonDiggs, TreDaviousWhite, JoshAllen, TremaineEdmunds, DionDawkins, MitchMorse, JordanPoyer, MicahHyde, MattMilano, DarylWilliams, StarLotulelei, ColeBeasley, EdOliver, AJKlein, JonFeliciano, TaronJohnson, TylerMatakevich, DevinSingletary, DawsonKnox, GregRousseau, CodyFord, MarioAddison, MattHaack, AJEpenesa, EmmanuelSanders, IkeBoettger, CarlosBashamJr, AndreSmith, ZackMoss, SpencerBrown, GabrielDavis, ReidFerguson, JaquanJohnson, TommySweeney, TylerBass, CamLewis, TommyDoyle, ReggieGilliam, TimHarris, DaneJackson, MarquezStevenson, DamarHamlin, TannerGentry, JoeGilesHarris, MikeLove, JoshThomas, JacobCapra, OlaijahGriffin, IsaiahHodgins, NickMcCloud, QuintinMorris, ChristianWade, JerryHughes, VernonButler, MitchellTrubisky, LeviWallace, TaiwanJones, EfeObada, IsaiahMcKenzie, MattBreida, HarrisonPhillips, SiranNeal, JakeKumerow, BobbyHart]
+var currRosterArr = [ TyrelDodson, EliAnkou, JustinZimmer, RyanBates, BrandinBryant, StefonDiggs, TreDaviousWhite, JoshAllen, TremaineEdmunds, DionDawkins, MitchMorse, JordanPoyer, MicahHyde, MattMilano, DarylWilliams, StarLotulelei, ColeBeasley, EdOliver, TaronJohnson, TylerMatakevich, DevinSingletary, DawsonKnox, GregRousseau, CodyFord, MarioAddison, MattHaack, AJEpenesa, EmmanuelSanders, IkeBoettger, CarlosBashamJr, AndreSmith, ZackMoss, SpencerBrown, GabrielDavis, ReidFerguson, JaquanJohnson, TommySweeney, TylerBass, CamLewis, TommyDoyle, ReggieGilliam, TimHarris, DaneJackson, MarquezStevenson, DamarHamlin, TannerGentry, JoeGilesHarris, MikeLove, JoshThomas, JacobCapra, OlaijahGriffin, IsaiahHodgins, NickMcCloud, QuintinMorris, ChristianWade, JerryHughes, VernonButler, MitchellTrubisky, LeviWallace, TaiwanJones, EfeObada, IsaiahMcKenzie, MattBreida, HarrisonPhillips, SiranNeal, JakeKumerow, BobbyHart]
 
+// 6598887
 
 var deadCap = 2816070;
 var rollover = 6687683;
 // var salaryCap = 211686546;
-var salaryCap = 216246268;
+var salaryCap = 209647381;
