@@ -443,6 +443,26 @@ salary: 705000,
 img: ''
 };
 
+var CaseKeenum = {
+name: 'Case Keenum',
+pos: 'QB',
+age: '31',
+capPenalty: 0,
+weight: '',
+salary: 3500000,
+img: ''
+};
+
+var ShaqLawson = {
+name: 'Shaq Lawson',
+pos: 'DE',
+age: '31',
+capPenalty: 152500,
+weight: '',
+salary: 1047000,
+img: ''
+};
+
 
 ///////////////////////////////////////
 var JerryHughes = {
@@ -573,11 +593,9 @@ name: 'Isaiah McKenzie',
 pos: 'WR',
 age: '26.6',
 type: 'UFA',
-cYears: 2,
-cTotal: 7,
-interest: 40,
 img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254',
-salary: 0
+salary: 1860294,
+capPenalty: 1250000
 };
 var BobbyHart = {
 name: 'Bobby Hart',
@@ -654,18 +672,100 @@ capPenalty: 0
 };
 
 var BrandinBryant = {
-name: 'BrandinBryant',
+name: 'Brandin Bryant',
 pos: 'DE',
 age: '25.8',
 salary: 837500,
 capPenalty: 0
 };
 
-var currRosterArr = [ TyrelDodson, EliAnkou, JustinZimmer, RyanBates, BrandinBryant, StefonDiggs, TreDaviousWhite, JoshAllen, TremaineEdmunds, DionDawkins, MitchMorse, JordanPoyer, MicahHyde, MattMilano, DarylWilliams, StarLotulelei, ColeBeasley, EdOliver, TaronJohnson, TylerMatakevich, DevinSingletary, DawsonKnox, GregRousseau, CodyFord, MarioAddison, MattHaack, AJEpenesa, EmmanuelSanders, IkeBoettger, CarlosBashamJr, AndreSmith, ZackMoss, SpencerBrown, GabrielDavis, ReidFerguson, JaquanJohnson, TommySweeney, TylerBass, CamLewis, TommyDoyle, ReggieGilliam, TimHarris, DaneJackson, MarquezStevenson, DamarHamlin, TannerGentry, JoeGilesHarris, MikeLove, JoshThomas, JacobCapra, OlaijahGriffin, IsaiahHodgins, NickMcCloud, QuintinMorris, ChristianWade, JerryHughes, VernonButler, MitchellTrubisky, LeviWallace, TaiwanJones, EfeObada, IsaiahMcKenzie, MattBreida, HarrisonPhillips, SiranNeal, JakeKumerow, BobbyHart]
+
+var JordanPhillips = {
+name: 'Jordan Phillips',
+pos: 'DE',
+age: '30',
+capPenalty: 4250000,
+weight: '',
+salary: 3514706,
+img: ''
+};
+
+var MarquelLee = {
+name: 'Marquel Lee',
+pos: 'LB',
+age: '27',
+capPenalty: 252500,
+weight: '',
+salary: 1047500,
+img: ''
+};
+
+var TimSettle = {
+name: 'Tim Settle',
+pos: 'IDL',
+age: '24.3',
+type: 'UFA',
+interest: 100,
+capPenalty: 5085000,
+salary: 2675000,
+img: ''
+};
+
+var OJHoward = {
+name: 'O.J. Howard',
+pos: 'TE',
+age: '27.0',
+type: 'UFA',
+capPenalty: 3195000,
+salary: 2875000,
+img: ''
+};
+
+var VonMiller = {
+name: 'Von Miller',
+pos: 'EDGE',
+age: '32.6',
+type: 'UFA',
+capPenalty: 45000000,
+salary: 5150000,
+img: ''
+};
+
+var DaQuanJones = {
+name: 'DaQuan Jones',
+pos: 'IDL',
+age: '31',
+type: 'UFA',
+capPenalty: 10625000,
+salary: 3583333,
+img: ''
+};
+
+var RogerSaffold = {
+name: 'Roger Saffold',
+pos: 'IOL',
+age: '33.8',
+type: 'UFA',
+capPenalty: 5950000,
+salary: 4220000,
+img: ''
+};
+
+var MattBarkley = {
+name: 'Matt Barkley',
+pos: 'QB',
+age: '31.2',
+type: 'UFA',
+capPenalty: 125000,
+salary: 920000,
+img: ''
+};
+
+var currRosterArr = [ TyrelDodson, EliAnkou, JustinZimmer, RyanBates, BrandinBryant, StefonDiggs, TreDaviousWhite, JoshAllen, TremaineEdmunds, DionDawkins, MitchMorse, JordanPoyer, MicahHyde, MattMilano, EdOliver, TaronJohnson, TylerMatakevich, DevinSingletary, DawsonKnox, GregRousseau, CodyFord, MarioAddison, MattHaack, AJEpenesa, EmmanuelSanders, IkeBoettger, CarlosBashamJr, AndreSmith, ZackMoss, SpencerBrown, GabrielDavis, ReidFerguson, JaquanJohnson, TommySweeney, TylerBass, CamLewis, TommyDoyle, ReggieGilliam, TimHarris, DaneJackson, MarquezStevenson, DamarHamlin, TannerGentry, JoeGilesHarris, MikeLove, JoshThomas, JacobCapra, OlaijahGriffin, IsaiahHodgins, NickMcCloud, QuintinMorris, ChristianWade, JerryHughes, VernonButler, MitchellTrubisky, LeviWallace, TaiwanJones, EfeObada, IsaiahMcKenzie, MattBreida, HarrisonPhillips, SiranNeal, JakeKumerow, BobbyHart, CaseKeenum, ShaqLawson, JordanPhillips, MarquelLee, TimSettle, OJHoward, VonMiller, DaQuanJones, RogerSaffold, MattBarkley]
 
 // 6598887
 
 var deadCap = 2816070;
 var rollover = 6687683;
 // var salaryCap = 211686546;
-var salaryCap = 209647381;
+var salaryCap = 214777381;
