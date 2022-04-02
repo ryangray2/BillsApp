@@ -135,8 +135,8 @@ var tb = {
 
 var was = {
   city: "Washington",
-  name: "Football Team",
-  logo: "unnamed.png",
+  name: "Commanders",
+  logo: "https://static.www.nfl.com/t_q-best/league/api/clubs/logos/WAS",
   draftResults: [],
   needs: ["QB", "OT", "LB", "S", "CB"],
   picks: []
@@ -264,7 +264,7 @@ var nyj = {
   name: "Jets",
   logo: "https://static.www.nfl.com/image/private/f_auto/league/ekijosiae96gektbo4iw",
   draftResults: [],
-  needs: ["QB"],
+  needs: [],
   picks: []
 };
 

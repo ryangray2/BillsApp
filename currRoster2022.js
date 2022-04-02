@@ -547,11 +547,19 @@ name: 'Taiwan Jones',
 pos: 'RB',
 age: '33.2',
 type: 'UFA',
-cYears: 1,
-cTotal: 1.8,
-interest: 40,
-img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/14167.png&w=350&h=254',
-salary: 0
+capPenalty: 0,
+salary: 1750000,
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/14167.png&w=350&h=254'
+};
+
+var JamisonCrowder = {
+name: 'Jamison Crowder',
+pos: 'WR',
+age: '28.4',
+type: 'UFA',
+capPenalty: 1870000,
+salary: 1980000,
+img: ''
 };
 var SiranNeal = {
 name: 'Siran Neal',
@@ -761,7 +769,7 @@ salary: 920000,
 img: ''
 };
 
-var currRosterArr = [ TyrelDodson, EliAnkou, JustinZimmer, RyanBates, BrandinBryant, StefonDiggs, TreDaviousWhite, JoshAllen, TremaineEdmunds, DionDawkins, MitchMorse, JordanPoyer, MicahHyde, MattMilano, EdOliver, TaronJohnson, TylerMatakevich, DevinSingletary, DawsonKnox, GregRousseau, CodyFord, MarioAddison, MattHaack, AJEpenesa, EmmanuelSanders, IkeBoettger, CarlosBashamJr, AndreSmith, ZackMoss, SpencerBrown, GabrielDavis, ReidFerguson, JaquanJohnson, TommySweeney, TylerBass, CamLewis, TommyDoyle, ReggieGilliam, TimHarris, DaneJackson, MarquezStevenson, DamarHamlin, TannerGentry, JoeGilesHarris, MikeLove, JoshThomas, JacobCapra, OlaijahGriffin, IsaiahHodgins, NickMcCloud, QuintinMorris, ChristianWade, JerryHughes, VernonButler, MitchellTrubisky, LeviWallace, TaiwanJones, EfeObada, IsaiahMcKenzie, MattBreida, HarrisonPhillips, SiranNeal, JakeKumerow, BobbyHart, CaseKeenum, ShaqLawson, JordanPhillips, MarquelLee, TimSettle, OJHoward, VonMiller, DaQuanJones, RogerSaffold, MattBarkley]
+var currRosterArr = [ TyrelDodson, EliAnkou, JustinZimmer, RyanBates, BrandinBryant, StefonDiggs, TreDaviousWhite, JoshAllen, TremaineEdmunds, DionDawkins, MitchMorse, JordanPoyer, MicahHyde, MattMilano, EdOliver, TaronJohnson, TylerMatakevich, DevinSingletary, DawsonKnox, GregRousseau, CodyFord, MarioAddison, MattHaack, AJEpenesa, EmmanuelSanders, IkeBoettger, CarlosBashamJr, AndreSmith, ZackMoss, SpencerBrown, GabrielDavis, ReidFerguson, JaquanJohnson, TommySweeney, TylerBass, CamLewis, TommyDoyle, ReggieGilliam, TimHarris, DaneJackson, MarquezStevenson, DamarHamlin, TannerGentry, JoeGilesHarris, MikeLove, JoshThomas, JacobCapra, OlaijahGriffin, IsaiahHodgins, NickMcCloud, QuintinMorris, ChristianWade, JerryHughes, VernonButler, MitchellTrubisky, LeviWallace, TaiwanJones, EfeObada, IsaiahMcKenzie, MattBreida, HarrisonPhillips, SiranNeal, JakeKumerow, BobbyHart, CaseKeenum, ShaqLawson, JordanPhillips, MarquelLee, TimSettle, OJHoward, VonMiller, DaQuanJones, RogerSaffold, MattBarkley, JamisonCrowder]
 
 // 6598887
 
