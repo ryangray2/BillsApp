@@ -776,4 +776,4 @@ var currRosterArr = [ TyrelDodson, EliAnkou, JustinZimmer, RyanBates, BrandinBry
 var deadCap = 2816070;
 var rollover = 6687683;
 // var salaryCap = 211686546;
-var salaryCap = 214777381;
+var salaryCap = 219892781;
