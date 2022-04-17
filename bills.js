@@ -1434,7 +1434,7 @@ function generateDraftPool(kind) {
        else if (kind === "IDL") {
           var count = 0;
           while (tempArray.length < amount && draftPlayers[count + 1] != null) {
-            if (draftPlayers[count].pos === "IDL") {
+            if (draftPlayers[count].pos === "IDL" || draftPlayers[count].pos === "DL") {
               tempArray.push(draftPlayers[count]);
             }
             count++;
